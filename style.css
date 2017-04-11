@@ -1,0 +1,24 @@
+* {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+}
+body{
+  background-color: salmon;
+}
+img{
+  width: 250px;
+  height: 150px;
+}
+h1{
+  text-align: center;
+}
+ul{
+  list-style-type:none
+  
+}
