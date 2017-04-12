@@ -10,8 +10,18 @@
     <img src="assets/salmon.png" alt="">
     <h1>Pat's World Famous Salmon cookies</h1>
   </div>
-  <div id ="app"></div>
-
+<form id ="New-Store-Form" action="index.html" method="post">
+    <label>Store Name <br/>
+    <input type="text" name="name" required="required"></label>
+    <label>Max number of customers <br/>
+    <input type="number" name="maxCustomer" required="required"></label>
+    <label>Minimum number of customers  <br/>
+    <input type="number" name="minCustomer" required="required"></label>
+    <label>Average Cookie per customer<br/>
+    <input type="number" name="avgCookiePerHour" required="required"></label>
+    <input type="submit" name="New Store" value="Create New Store">
+</form>
+<div id ="app"></div>
 
   <script src="app.js"></script>
   </body>
