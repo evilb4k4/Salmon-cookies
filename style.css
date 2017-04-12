@@ -11,14 +11,26 @@ html, body {
 body{
   background-color: salmon;
 }
-img{
-  width: 250px;
-  height: 150px;
-}
 h1{
-  text-align: center;
+  margin-top: 20px;
 }
-ul{
-  list-style-type:none
-  
+img{
+  width: 50%;
+}
+.header{
+  text-align: center;
+  margin-top: 20px;
+}
+table, table * {
+  border: 1px solid black;
+}
+table {
+  background: #00CBE8;
+  width: 75%;
+  margin: 0 auto;
+  margin-top: 5%;
+  font-family: "Times New Roman";
+  font-size: 20px;
+  border: 2px solid #000;
+
 }
