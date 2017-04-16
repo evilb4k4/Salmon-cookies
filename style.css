@@ -15,11 +15,11 @@ h1{
   margin-top: 20px;
 }
 img{
-  width: 50%;
+  width: 30%;
 }
-.header{
+.header, .spin{
   text-align: center;
-  margin-top: 20px;
+  margin-top: 40px;
 }
 table, table * {
   border: 1px solid black;
@@ -32,5 +32,61 @@ table {
   font-family: "Times New Roman";
   font-size: 20px;
   border: 2px solid #000;
+}
+#New-Store-Form{
+  width: 25%;
+  margin: 30px auto;
+  border: 2px solid #000;
+  text-align: center;
+}
+td, th {
+  border: 1px solid #999;
+  padding: 0.5rem;
+  text-align: center;
+}
+th{
+  background-color: #24FF28;
+}
+input {
+  margin: 5px auto;
+  width: 175px;
+  display: block;
+  border: 1px solid #000;
+  border-radius: 10px;
+  height: 25px;
+  -webkit-box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+  box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+}
+#button {
+  margin-top: 10px;
+  background: #09C;
+  color: #fff;
+  font-family: Tahoma, Geneva, sans-serif;
+  height: 30px;
+  border-radius: 15px;
+  border: 1p solid #999;
+}
 
+/*.submit:hover {
+  background: #fff;
+  color: #09C;
+}*/
+.spin {
+  cursor: pointer;
+  transform-style: preserve-3d;
+}
+.spin:hover {
+    animation: spin 7s linear infinite;
+}
+@keyframes spin {
+  0% {
+    transform: rotateY(0deg);
+  }
+  100% {
+    transform: rotateY(360deg);
+  }
+}
+.box-2 {
+  transform: perspective(200px) translateZ(53px);
 }
